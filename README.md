@@ -16,7 +16,7 @@ Auto check your task if you use PBS to submit and email you when finished
 Option 1:
 
 ```python
-git clone git@github.com:ZeroDesigner/reporter.git
+git clone git@github.com:ZeroDesigner/reporter_su.git
 cd reporter
 python setup.py install
 ```
@@ -84,7 +84,7 @@ luskyqi@outlook.com
 ##### 选项 1：
 
 ```python
-git clone git@github.com:ZeroDesigner/reporter.git
+git clone git@github.com:ZeroDesigner/reporter_su.git
 cd reporter
 python setup.py install
 ```
