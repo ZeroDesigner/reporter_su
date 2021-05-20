@@ -1,4 +1,4 @@
-# reporter
+# reporter_su
 **Language**
 
 English
@@ -24,7 +24,7 @@ python setup.py install
 Option 2:
 
 ```python
-pip install reporter
+pip install reporter_su
 ```
 
 **Usage**
@@ -46,10 +46,12 @@ Step 2
 
 ```python
 # the checker will check task status every 60 mins
-import reporter.pbs_reporter as rp
+import reporter_su.pbs_reporter as rp
 if rp.auto_check(pdbid,time_scan = 3600) == 0:
    rp.auto_report(receiver,sender,mail_license,smtpserver,mail_body,mail_title)
 ```
+
+![Screen Shot 2021-05-21 at 1.06.17 AM](https://gitee.com/zerodesigner/markdown-png/raw/master/uPic/Screen%20Shot%202021-05-21%20at%201.06.17%20AM.png)
 
 #### **License**
 
@@ -58,6 +60,10 @@ MIT
 **Email**
 
 luskyqi@outlook.com
+
+
+
+-------------
 
 
 
@@ -86,7 +92,7 @@ python setup.py install
 ##### 选项 2：
 
 ```python
-pip install reporter
+pip install reporter_su
 ```
 
 #### 用法
@@ -108,10 +114,12 @@ pdbid = 'change_text'
 
 ```python
 # 脚本会每隔1个小时检查一下任务是否存在
-import reporter.pbs_reporter as rp
+import reporter_su.pbs_reporter as rp
 if rp.auto_check(pdbid,time_scan = 3600) == 0:
    rp.auto_report(receiver,sender,mail_license,smtpserver,mail_body,mail_title)
 ```
+
+![Screen Shot 2021-05-21 at 1.06.17 AM](https://gitee.com/zerodesigner/markdown-png/raw/master/uPic/Screen%20Shot%202021-05-21%20at%201.06.17%20AM-1530425.png)
 
 ####  协议
 
