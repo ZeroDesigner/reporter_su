@@ -17,7 +17,7 @@ Option 1:
 
 ```python
 git clone git@github.com:ZeroDesigner/reporter_su.git
-cd reporter
+cd reporter_su
 python setup.py install
 ```
 
